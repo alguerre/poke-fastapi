@@ -1,0 +1,8 @@
+version: '3.1'
+
+services:
+  pokemon:
+    image: pokemon_image:latest
+    container_name: pokemon-container
+    ports:
+      - "8001:8001"
